@@ -3,7 +3,7 @@ package com.example.data.local
 import com.example.domain.Cat
 
 
-val cats = listOf<Cat>(
+val cats = mutableListOf(
     Cat(1, "Tigger", "Tabby", 2),
     Cat(2, "Oscar", "British Shorthair", 1),
     Cat(3, "Max", "Siamese", 3),
